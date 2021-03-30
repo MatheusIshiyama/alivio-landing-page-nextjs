@@ -100,6 +100,16 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            <section className={styles.about}>
+                <div className={styles.header}>
+                    <h2>Let's hear about Kayla's success story</h2>
+                    <p>See how well Alivio works in a real customer’s life. </p>
+                    <a href="#">Let's get started</a>
+                </div>
+                <div className={styles.body}>
+                    <img src="./about.png" />
+                </div>
+            </section>
         </>
     );
 }

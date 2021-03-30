@@ -9,6 +9,7 @@
     color: white;
 }
 
+/** Banner Section */
 .banner {
     position: relative;
     min-height: 100vh;
@@ -45,6 +46,8 @@
     border-radius: 4px;
     color: white;
 }
+
+/** Information Section */
 
 .information {
     background-color: white;
@@ -89,7 +92,7 @@
 .information .body {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .information .body .content {
@@ -99,7 +102,7 @@
 
 .information .body .content h1 {
     font-size: 9em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     color: rgba(1, 153, 109, 0.2);
     position: absolute;
 }
@@ -108,7 +111,7 @@
     margin-top: 100px;
     margin-left: 40px;
     font-size: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .information .body .content p {
@@ -127,4 +130,41 @@
 
 .information .body .content3 {
     margin-top: 70px;
+}
+
+/** About Section */
+
+.about {
+    background-color: #245852;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about .header h2 {
+    color: white;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.about .header p {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 70px;
+}
+
+.about .header a {
+    background-color: #01996D;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.about .body img {
+    border-radius: 16px;
+    width: 700px;
+    height: 400px;
 }
