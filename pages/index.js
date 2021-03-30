@@ -110,6 +110,22 @@ export default function Home() {
                     <img src="./about.png" />
                 </div>
             </section>
+            <section className={styles.services}>
+                <div className={styles.header}>
+                    <h4>Our product</h4>
+                    <h2>You tell us your stress, We make your diary</h2>
+                    <p>
+                        Everyone experiences it, and in different ways. <br />
+                        Let Alivio guide you, in a personalized journal
+                        experience, to overcome your stress.
+                    </p>
+                    <a>Find Your Way</a>
+                </div>
+                <div className={styles.body}>
+                    <img src="./card.png" className={styles.card} />
+                    <img src="./profile.png" className={styles.profile} />
+                </div>
+            </section>
         </>
     );
 }

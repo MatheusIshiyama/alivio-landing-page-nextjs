@@ -144,7 +144,7 @@
 .about .header h2 {
     color: white;
     font-size: 3em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     margin-top: 70px;
     margin-bottom: 20px;
 }
@@ -156,7 +156,7 @@
 }
 
 .about .header a {
-    background-color: #01996D;
+    background-color: #01996d;
     padding: 20px 40px;
     text-decoration: none;
     color: white;
@@ -167,4 +167,61 @@
     border-radius: 16px;
     width: 700px;
     height: 400px;
+}
+
+/** Services Section */
+
+.services {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+}
+
+.services .header {
+    margin-top: 55px;
+    margin-left: 100px;
+}
+
+.services .header h4 {
+    font-size: 1.5em;
+    margin-bottom: 24px;
+}
+
+.services .header h2 {
+    font-size: 3em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #01996d;
+    margin-bottom: 30px;
+    line-height: 1.3em;
+}
+
+.services .header p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    width: 80%;
+    margin-bottom: 60px;
+}
+
+.services .header a {
+    padding: 20px 40px;
+    background-color: #01996d;
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.services .body .profile {
+    margin-left: 90px;
+    margin-top: 55px;
+    margin-bottom: 90px;
+    width: 500px;
+    height: 460px;
+}
+
+.services .body .card {
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 35px;
+    width: 250px;
+    height: 250px;
 }
