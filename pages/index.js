@@ -46,6 +46,60 @@ export default function Home() {
                     <a href="#">Find Your Way</a>
                 </div>
             </section>
+            <section className={styles.information}>
+                <div className={styles.header}>
+                    <p className={styles.text}>How it works</p>
+                    <div className={styles.title}>
+                        <h2>Understand & Release the stress in 3 steps</h2>
+                        <p>
+                            Alivio offers as many journals it takes, tackling
+                            different areas such as anxiety, overwhelmedness,
+                            sadness, or anger, and a variety of personal causes,
+                            to help you become aware of your emotions, and guide
+                            you in how to manage stress.
+                        </p>
+                    </div>
+                </div>
+                <div className={styles.body}>
+                    <div
+                        className={[styles.content, styles.content1].join(" ")}
+                    >
+                        <h1>01</h1>
+                        <h2>Personalize</h2>
+                        <p>
+                            Answer a quick survey about how you express
+                            yourself, what causes you stress, and what area
+                            would you like to work on. This way, we can fully
+                            personalize your journal!
+                        </p>
+                        <img src="./info1.png" />
+                    </div>
+                    <div
+                        className={[styles.content, styles.content2].join(" ")}
+                    >
+                        <h1>02</h1>
+                        <h2>Write & Understand</h2>
+                        <p>
+                            Write, draw, reflect, understand. Alivio will guide
+                            you through the prompts and will help you manage
+                            your stress!
+                        </p>
+                        <img src="./info2.png" />
+                    </div>
+                    <div
+                        className={[styles.content, styles.content3].join(" ")}
+                    >
+                        <h1>03</h1>
+                        <h2>Alivio!</h2>
+                        <p>
+                            Now you are aware, and have a way to manage and
+                            overcome your own stress. What are you waiting for?
+                            Alivio today!
+                        </p>
+                        <img src="./info3.png" />
+                    </div>
+                </div>
+            </section>
         </>
     );
 }
