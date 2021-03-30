@@ -20,7 +20,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 12px 80px;
+    padding: 12px 180px;
     display: flex;
     align-items: center;
     background-color: white;
@@ -42,7 +42,7 @@ header ul li {
 }
 
 header ul li a {
-    font-size: 18;
+    font-size: 1em;
     font-weight: 500;
     text-decoration: none;
     color: #292929;

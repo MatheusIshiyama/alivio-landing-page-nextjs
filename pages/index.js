@@ -29,11 +29,23 @@ export default function Home() {
                     </li>
                     <li>
                         <a href="#" className={styles.trialButton}>
-                            <label>Start trial</label>
+                            Start trial
                         </a>
                     </li>
                 </ul>
             </header>
+            <section className={styles.banner}>
+                <div className={styles.bannerContent}>
+                    <h2>Be aware,</h2>
+                    <h2>Manage well.</h2>
+                    <p>
+                        Everyone experiences stressin differents ways. Let
+                        Alivio guide you, in a personalized journal experience,
+                        to overcome your stress.
+                    </p>
+                    <a href="#">Find Your Way</a>
+                </div>
+            </section>
         </>
     );
 }

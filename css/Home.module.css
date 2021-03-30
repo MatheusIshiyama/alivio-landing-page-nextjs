@@ -5,6 +5,43 @@
     width: 120px;
     height: 40px;
     border-radius: 4px;
-    background-color: #01996D;
+    background-color: #01996d;
+    color: white;
+}
+
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background: url("../public/Background.png");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.bannerContent {
+    margin-left: 5em;
+    margin-top: 3em;
+}
+
+.bannerContent h2 {
+    font-size: 3em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #01996d;
+    line-height: 1.2em;
+}
+
+.bannerContent p {
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: normal;
+    max-width: 27%;
+    margin-bottom: 65px;
+}
+
+.bannerContent a {
+    text-decoration: none;
+    background-color: #01996d;
+    padding: 20px 40px;
+    border-radius: 4px;
     color: white;
 }
