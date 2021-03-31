@@ -126,6 +126,17 @@ export default function Home() {
                     <img src="./profile.png" className={styles.profile} />
                 </div>
             </section>
+            <section className={styles.footer}>
+                <div className={styles.header}>
+                    <a href="#">Alivio</a>
+                </div>
+                <div className={styles.body}>
+                    <a href="#">Why Alivo</a>
+                    <a href="#">Solutions</a>
+                    <a href="#">Community</a>
+                    <a href="#">Pricing</a>
+                </div>
+            </section>
         </>
     );
 }

@@ -225,3 +225,31 @@
     width: 250px;
     height: 250px;
 }
+
+/** Footer Section */
+
+.footer {
+    background-color: #245852;
+}
+
+.footer .body {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .header a {
+    font-size: 2em;
+    font-family: "Metropolis";
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.footer .body a {
+    font-size: 1em;
+    color: white;
+    margin-top: 45px;
+    text-decoration: none;
+}
